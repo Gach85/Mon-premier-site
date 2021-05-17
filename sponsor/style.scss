@@ -1,0 +1,122 @@
+body{
+    background-color: #235936;
+}
+
+//------- header
+header{
+    
+    .precedent{
+        a{
+            color: yellow;
+            text-decoration: none;
+            font-family: 'Itim', cursive;
+            
+        }
+        @media screen and (max-width: 375px){
+            display: none;
+        }
+    }
+}
+
+//--------------- intro --------------//
+h1{
+    text-align: center;
+    color: #cfe749;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 4em;
+    @media screen and (max-width: 375px){
+        font-size: 2em;
+    }
+}
+.koala{
+    width: 100%;
+    margin: auto;
+    img{
+        width: 100%;
+        height: 550px;
+        @media screen and (max-width: 375px){
+            height: auto;
+        }
+    }
+}
+#intro{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    @media screen and (max-width: 375px){
+        width: auto;
+    }
+    p{
+        font-family: 'Itim', cursive;
+        color: #ffdead;
+        font-size: 1.3em;
+        @media screen and (max-width: 375px){
+            margin: 0%;
+        }
+    }
+}
+
+//------------ animals -----------//
+
+#animals{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    @media screen and (max-width: 375px){
+        width: 90%;
+    }
+    h2{
+        text-align: center;
+        color: #ff8c00;
+        font-family: 'Itim', cursive;
+        background-color: wheat;
+        width: 30%;
+        margin: auto;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        padding: 1%;
+        border-radius: 22px;
+        font-size: 2em;
+        @media screen and (max-width: 375px){
+            width: 100%;
+        }
+    }
+    .bio{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        @media screen and (max-width: 375px){
+            flex-direction: column;
+        }
+        
+        .friends{
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            background-color: #daaa62;
+            @media screen and (max-width: 375px){
+                width: auto;
+                margin-bottom: 2%;
+            }
+            img{
+
+         }
+         h3{
+            text-align: center;
+            color: #cfe749;
+            font-family: 'Indie Flower', cursive;
+            font-size: 2em;
+         }
+            p{
+                color: #ffdead;
+                font-family: 'Itim', cursive;
+                @media screen and (max-width: 375px){
+                    display: none;
+                }
+         }
+        }
+    }
+}

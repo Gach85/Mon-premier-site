@@ -1,0 +1,170 @@
+body {
+  background-color: #235936;
+}
+
+header .precedent a {
+  color: yellow;
+  text-decoration: none;
+  font-family: 'Itim', cursive;
+}
+
+@media screen and (max-width: 375px) {
+  header .precedent {
+    display: none;
+  }
+}
+
+h1 {
+  text-align: center;
+  color: #cfe749;
+  font-family: 'Caveat Brush', cursive;
+  font-size: 4em;
+}
+
+@media screen and (max-width: 375px) {
+  h1 {
+    font-size: 2em;
+  }
+}
+
+.koala {
+  width: 100%;
+  margin: auto;
+}
+
+.koala img {
+  width: 100%;
+  height: 550px;
+}
+
+@media screen and (max-width: 375px) {
+  .koala img {
+    height: auto;
+  }
+}
+
+#intro {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 375px) {
+  #intro {
+    width: auto;
+  }
+}
+
+#intro p {
+  font-family: 'Itim', cursive;
+  color: #ffdead;
+  font-size: 1.3em;
+}
+
+@media screen and (max-width: 375px) {
+  #intro p {
+    margin: 0%;
+  }
+}
+
+#animals {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+}
+
+@media screen and (max-width: 375px) {
+  #animals {
+    width: 90%;
+  }
+}
+
+#animals h2 {
+  text-align: center;
+  color: #ff8c00;
+  font-family: 'Itim', cursive;
+  background-color: wheat;
+  width: 30%;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 1%;
+  border-radius: 22px;
+  font-size: 2em;
+}
+
+@media screen and (max-width: 375px) {
+  #animals h2 {
+    width: 100%;
+  }
+}
+
+#animals .bio {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 375px) {
+  #animals .bio {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+#animals .bio .friends {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #daaa62;
+}
+
+@media screen and (max-width: 375px) {
+  #animals .bio .friends {
+    width: auto;
+    margin-bottom: 2%;
+  }
+}
+
+#animals .bio .friends h3 {
+  text-align: center;
+  color: #cfe749;
+  font-family: 'Indie Flower', cursive;
+  font-size: 2em;
+}
+
+#animals .bio .friends p {
+  color: #ffdead;
+  font-family: 'Itim', cursive;
+}
+
+@media screen and (max-width: 375px) {
+  #animals .bio .friends p {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
