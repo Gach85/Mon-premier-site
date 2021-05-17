@@ -1,0 +1,205 @@
+body {
+  background-color: #235936;
+}
+
+header {
+  background-color: #235936;
+  height: auto;
+}
+
+header .precedent a {
+  color: yellow;
+  text-decoration: none;
+  font-family: 'Itim', cursive;
+}
+
+@media screen and (max-width: 375px) {
+  header .precedent {
+    display: none;
+  }
+}
+
+header h1 {
+  text-align: center;
+  font-size: 4em;
+  font-family: 'Caveat Brush', cursive;
+  color: yellow;
+}
+
+#intro {
+  background-image: url(../images_files/Maverick.jpg);
+  width: 100%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: justify;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 550px;
+}
+
+@media screen and (max-width: 375px) {
+  #intro {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-position: top;
+    height: auto;
+  }
+}
+
+#intro .part1 {
+  width: 33%;
+}
+
+@media screen and (max-width: 375px) {
+  #intro .part1 {
+    width: 100%;
+  }
+}
+
+#intro .part2 {
+  width: 30%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+@media screen and (max-width: 375px) {
+  #intro .part2 {
+    width: 100%;
+  }
+}
+
+#intro h3 {
+  text-align: center;
+  width: 100%;
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 2em;
+  color: darkorange;
+}
+
+@media screen and (max-width: 375px) {
+  #intro h3 {
+    font-size: 1.2em;
+    font-family: 'Itim', cursive;
+  }
+}
+
+#intro_2 {
+  background-color: #235936;
+  width: 100%;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#intro_2 p {
+  width: 60%;
+  margin: auto;
+  font-family: 'Itim', cursive;
+  color: navajowhite;
+}
+
+@media screen and (max-width: 375px) {
+  #intro_2 p {
+    width: 100%;
+    font-size: 1.2em;
+  }
+}
+
+.carousel {
+  background-image: url(../images_files/jungle.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel .carousel-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: scroll;
+  padding: 1rem 0;
+  -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
+  list-style-type: none;
+}
+
+.carousel .carousel-items .carousel-item {
+  margin-left: 1rem;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -ms-flex-preferred-size: 250px;
+      flex-basis: 250px;
+  scroll-snap-align: start;
+  text-align: center;
+}
+
+.carousel .carousel-items .carousel-item .card {
+  background-color: darkolivegreen;
+  border-radius: 30px;
+  height: 97%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.carousel .carousel-items .carousel-item .card .card-title {
+  font-family: 'Caveat', cursive;
+  color: darkorange;
+  font-size: 1.3em;
+}
+
+.carousel .carousel-items .carousel-item .card img {
+  height: 140px;
+  width: 210px;
+  max-height: 235px;
+}
+
+.carousel .carousel-items .carousel-item .card .card-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 70%;
+  margin: auto;
+}
+
+.carousel .carousel-items .carousel-item .card .card-content p {
+  font-family: 'Itim', cursive;
+  color: navajowhite;
+  font-size: 0.8em;
+}
+
+.carousel ::-webkit-scrollbar-track {
+  background-color: #F5F5F5;
+}
+
+.carousel ::-webkit-scrollbar {
+  height: 6px;
+  background-color: #F5F5F5;
+}
+
+.carousel ::-webkit-scrollbar-thumb {
+  background-color: darkorange;
+  border-radius: 5px;
+  border: darkslategray solid 1px;
+}
+/*# sourceMappingURL=about.css.map */

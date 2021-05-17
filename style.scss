@@ -1,0 +1,265 @@
+
+body{
+    
+    
+}
+              
+
+                //----------- header ----------//
+header{
+ 
+    display: flex;
+    width: 100%;
+    background-color: #235936;
+    .topnav{
+        display: flex;
+        width: 80%;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+
+        img{
+            width: 200px;
+            height: auto;
+
+        }
+        #myLinks{
+            display: flex;
+            list-style-type: none;
+            width: 60%;
+            justify-content: space-between;
+            margin: auto;
+            li{
+                font-family: 'Pangolin', cursive;
+                color: #cfe749;
+                font-size: 1em;
+                align-self: center;
+                
+                a{
+                    color: #cfe749;
+                }
+
+            }
+        }
+    }
+//----responsive
+    @media screen and (max-width: 375px){
+     .topnav{
+        width: 100%;
+        justify-content: space-between;
+        .logo{
+            width: 40%;
+            img{
+                width: 100%;
+            }
+        }
+        #myLinks{
+            flex-direction: column;
+            width: 60%;
+            li{
+                margin-top: 5%;
+            }
+        }
+     }
+     
+    }
+     
+//-------------
+}
+
+//----------- presentation ----------//
+
+#titre{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    background-image: url(./images_files/forest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 549px;
+    @media screen and (max-width: 375px){
+        height: auto;
+    }
+    h1{
+        @media screen and (max-width: 375px){
+            font-size: 2em;
+        }
+        font-family: 'Caesar Dressing', cursive;
+        font-size: 4em;
+        color: darkorange;
+        margin: auto;
+    }
+}
+
+#presa{
+    background-image: url(./images_files/KoalasHeader.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 431px;
+    width: 100%;
+    @media screen and (max-width: 375px){
+        height: 130px;
+        width: 100%;
+    }
+    .accueil{
+        height: 100%;
+        display: flex;
+        color: navajowhite;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-end;
+        font-size: 1.2em;
+        margin-right: 4%;
+        p{
+            @media screen and (max-width: 375px){
+                display: none;
+            }
+            font-family: 'Itim', cursive;
+            width: 30%;
+            background-color: #daaa62;
+            border-radius: 30px;
+        }
+
+    }
+    
+}
+#presa_2{
+    background-image: url(./images_files/jungle.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .horaires{
+        display: flex;
+        width: 80%;
+        margin: auto;
+        align-items: center;
+        height: 200px;
+        @media screen and (max-width: 375px){
+            width: 90%;
+            height: auto;
+            flex-direction: column;
+        }
+        p{
+            width: 40%;
+            font-family: 'Itim', cursive;
+            color: navajowhite;
+            
+
+        }
+        .resa{
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            height: 60%;
+            @media screen and (max-width: 375px){
+                width: 80%;
+            }
+            
+            button{
+                margin: auto;
+                height: 40%;
+                width: 60%;
+            background: #235936;      
+            color: #fff;   
+            border: 1px solid #eee;     
+            border-radius: 20px;     
+            box-shadow: 5px 5px 5px #eee;       
+            text-shadow:none;
+            font-family: 'Itim', cursive;
+            font-size: 1.3em;
+            @media screen and (max-width: 375px){
+                width: 100%;
+                margin-bottom: 2%;
+            }
+                    
+            }   
+            button:hover {    
+            background: #174126;   
+            color: #fff;   
+            border: 1px solid #eee;   
+            border-radius: 20px;   
+            box-shadow: 5px 5px 5px #eee;   
+            text-shadow:none;
+            }
+            
+
+        }
+        .resa_2{
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            text-align: center;
+            align-items: center;
+        @media screen and (max-width: 375px){
+            width: 100%;
+            justify-content: space-around;
+            flex-direction: row-reverse;
+        }
+            img{
+                width: 50px;
+                @media screen and (max-width: 375px){
+                    width: 30%;
+                }
+            }
+            p{
+                background-color: #daaa62;
+                width: auto;
+                border-radius: 30px;
+                @media screen and (max-width: 375px){
+                    border-radius: 0px;
+                    width: 60%;
+                }
+            }
+
+        }
+
+    }
+}
+
+                //-------------- footer -------------//
+footer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    justify-content: space-around;
+    color: #cfe749;
+    background-color: #235936;
+    @media screen and (max-width: 375px){
+        flex-direction: column;
+        height: auto;
+    }
+    .sub{
+        @media screen and (max-width: 375px){
+            text-align: center;
+            align-self: end;
+            width: 90%;
+            margin: auto;
+            margin-bottom: 2%;
+            margin-top: 2%;
+        }
+        width: 33%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        h3{
+            @media screen and (max-width: 375px){
+                font-size: 1em;
+                margin: unset;
+            }
+            font-family: 'Itim', cursive;
+        }
+        p{
+            @media screen and (max-width: 375px){
+                font-size: 0.9em;
+                margin: unset;
+            }
+            font-family: 'Itim', cursive;
+        }
+
+    }
+    
+}
